@@ -117,7 +117,7 @@
             <h3 class="about__content-title">Get to know me!</h3>
             <div class="about__content-details">
               <p class="about__content-details-para">
-                3년 차 웹 개발자로 <strong>9개의 프로젝트를 수행한 경험</strong>이 있습니다.
+                4년 차 백엔드 개발자로서 웹 에이전시와 여행 예약 솔루션 전문 기업에서 <strong>Java·Kotlin 기반의 웹 서비스 개발 프로젝트</strong>를 수행했습니다.
                 </br></br>
                 <strong>꺾이지 않는 마음으로 해결책을 찾아 나가는 과정</strong>을 즐깁니다.</br>
                 또한 같은 문제를 만나면 이전 보다 더 효율적으로 해결할 수 있는 방법을 선택하기 위해 검토하고 적용합니다.
@@ -128,20 +128,21 @@
               </p>
               </br></br>
               <p class="about__content-details-para">
-                더 자세한 <strong>소개</strong>와 성장을 위해 기록한 <strong>블로그</strong>는 아래 버튼을 클릭하면 확인하실 수 있습니다!
+                더 자세한 <strong>소개</strong>는 아래 버튼을 클릭하면 확인하실 수 있습니다!
               </p>
             </div>
-            <a href="./assets/pdf/이력서_강은지.pdf" class="btn btn--med btn--theme dynamicBgClr" download="">자기소개서 다운로드</a>
-            <a href="https://zoetechlog.tistory.com/" target="_blank" class="btn btn--med btn--theme-inv project-details__links-btn">기술 블로그</a>
+            <a href="./assets/pdf/[강은지] 자기소개서.pdf" class="btn btn--med btn--theme dynamicBgClr" download="">자기소개서 다운로드</a>
+<!--            <a href="https://zoetechlog.tistory.com/" target="_blank" class="btn btn&#45;&#45;med btn&#45;&#45;theme-inv project-details__links-btn">기술 블로그</a>-->
           </div>
           <div class="about__content-skills">
             <h3 class="about__content-title">My Skills</h3>
             <div class="skills">
               <div class="skills__skill">JAVA</div>
-              <div class="skills__skill">Spring Framework</div>
+              <div class="skills__skill">Kotlin</div>
               <div class="skills__skill">Spring Boot</div>
               <div class="skills__skill">JPA</div>
               <div class="skills__skill">RESTful API</div>
+              <div class="skills__skill">Kafka</div>
               <div class="skills__skill">QueryDSL</div>
               <div class="skills__skill">MSSQL</div>
               <div class="skills__skill">MySQL</div>
@@ -150,15 +151,26 @@
               <div class="skills__skill">JavaScript</div>
               <div class="skills__skill">JQuery</div>
               <div class="skills__skill">Thymeleaf</div>
-              <div class="skills__skill">Git</div>
+              <div class="skills__skill">Git/Gitlab</div>
               <div class="skills__skill">Linux</div>
               <div class="skills__skill">IntelliJ/Eclipse</div>
               <div class="skills__skill">Swagger</div>
             </div>
 
             </br></br>
-            <h3 class="about__content-title">Career</h3>
+            <h3 class="about__content-title">Career (총 경력: 4년)</h3>
             <div class="">
+              <div class="about__content-details">
+                <p class="about__content-details-para">
+                  <strong>누아(여행 예약 솔루션)</strong>
+                </p>
+                <p class="about__content-details-para">
+                  <img src="./assets/svg/calendar-fill.svg"> 2024.11 ~ 현재</br>
+                </p>
+                <p class="about__content-details-para">
+                  <img src="./assets/svg/pencil-fill.svg"> 응용기술팀 선임</br>
+                </p>
+              </div>
               <div class="about__content-details">
                 <p class="about__content-details-para">
                 <strong>리플렉션(웹 에이전시, SI)</strong>
@@ -187,6 +199,88 @@
         </h2>
 
         <div class="projects__content">
+
+
+          <div class="">
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">항공, 호텔, 기차 등 여행 예약 OTA 개발 및 운영 (원트래블/VIP)</h3>
+
+              <h3 class="project-details__content-title">주요 업무</h3>
+              <p class="project-details__desc-para">
+                여행 예약 플랫폼의 백엔드 개발을 담당하여 서비스 안정성과 처리 효율을 높이는 데 기여했습니다.</br>
+                - 예약 완료 후 처리 로직 비동기화 (Kafka 기반 메시징 구조 개선 및 통합)</br>
+                - 항공권 환불·보이드 프로세스 리팩토링</br>
+                - 호텔 Aggregator 패턴으로 구현하여 공급사별 예약 프로세스 통합(외부 API 연동 / 코루틴 기반 비동기 처리)
+              </p>
+              <div class="project-details__tools-used">
+                <h3 class="project-details__content-title">기술 스택</h3>
+                <div class="skills">
+                  <div class="skills__skill">Kotlin</div>
+                  <div class="skills__skill">SpringBoot</div>
+                  <div class="skills__skill">Mysql</div>
+                  <div class="skills__skill">Kafka</div>
+                  <div class="skills__skill">Redis</div>
+                  <div class="skills__skill">Thymeleaf</div>
+                  <div class="skills__skill">Git</div>
+                </div>
+              </div>
+              <a
+                      href="https://won.travel/"
+                      class="btn btn--med btn--theme dynamicBgClr"
+                      target="_blank">SITE LINK</a>
+            </div>
+          </div>
+
+          <div class="">
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">호텔 데이터 매핑 자동화</h3>
+
+              <h3 class="project-details__content-title">주요 업무</h3>
+              <p class="project-details__desc-para">
+                호텔 공급사별 데이터 구조가 상이하여 동일 호텔임에도 중복으로 인식되는 문제가 발생했고, 그를 해결 하기 위한 작업을 진행했습니다.</br>
+                - Python 스크립트를 활용해 공급사 간 동일 호텔 데이터 매칭 자동화 작업 수행</br>
+                - 서치 데이터(엘라스틱서치) 업데이트 스케줄러 개발</br>
+                - Redis cache 활용한 추천호텔 스케줄러 개발
+              </p>
+              <div class="project-details__tools-used">
+                <h3 class="project-details__content-title">기술 스택</h3>
+                <div class="skills">
+                  <div class="skills__skill">Python</div>
+                  <div class="skills__skill">Kotlin</div>
+                  <div class="skills__skill">Mysql</div>
+                  <div class="skills__skill">Redis</div>
+                  <div class="skills__skill">Git</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="">
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">OTA 관리자 매니지먼트 시스템</h3>
+
+              <h3 class="project-details__content-title">주요 업무</h3>
+              <p class="project-details__desc-para">
+                어드민 페이지 유지보수 및 기능 개선을 수행했습니다.  고객 클레임과 운영 불편의 원인이 되었던 이력 누락·관리 문제를 해결하여 운영 효율성을 높였습니다.</br>
+                - 어드민 페이지 유지보수 및 기능 개선을 통해 고객 클레임 및 운영 불편의 원인을 추적·해결</br>
+                - 공지사항, 자주 묻는 질문 등 게시판 운영 편의를 위한 에디터 삽입</br>
+              </p>
+              <div class="project-details__tools-used">
+                <h3 class="project-details__content-title">기술 스택</h3>
+                <div class="skills">
+                  <div class="skills__skill">Kotlin</div>
+                  <div class="skills__skill">SpringBoot</div>
+                  <div class="skills__skill">Mysql</div>
+                  <div class="skills__skill">Kafka</div>
+                  <div class="skills__skill">Redis</div>
+                  <div class="skills__skill">Thymeleaf</div>
+                  <div class="skills__skill">Git</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
           <div class="">
             <div class="projects__row-content">
               <h3 class="projects__row-content-title">LX하우시스 홈페이지 개편</h3>
